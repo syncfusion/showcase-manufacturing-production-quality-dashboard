@@ -1,0 +1,43 @@
+{
+  "name": "precision-plant",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-react-buttons": "34.1.29",
+    "@syncfusion/ej2-react-calendars": "34.1.29",
+    "@syncfusion/ej2-react-charts": "34.1.29",
+    "@syncfusion/ej2-react-diagrams": "34.1.29",
+    "@syncfusion/ej2-react-dropdowns": "34.1.29",
+    "@syncfusion/ej2-react-gantt": "34.1.29",
+    "@syncfusion/ej2-react-grids": "34.1.29",
+    "@syncfusion/ej2-react-interactive-chat": "34.1.29",
+    "@syncfusion/ej2-react-kanban": "34.1.29",
+    "@syncfusion/ej2-react-lists": "34.1.29",
+    "@syncfusion/ej2-react-navigations": "34.1.29",
+    "@syncfusion/ej2-react-notifications": "34.1.29",
+    "@syncfusion/ej2-react-pivotview": "34.1.29",
+    "@syncfusion/ej2-react-popups": "34.1.29",
+    "@syncfusion/ej2-react-schedule": "34.1.29",
+    "@syncfusion/ej2-tailwind3-dark-theme": "34.1.29",
+    "@syncfusion/ej2-tailwind3-theme": "34.1.29",
+    "lucide-react": "0.545.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-router-dom": "7.9.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@vitejs/plugin-react": "6.0.1",
+    "typescript": "^5.9.3",
+    "vite": "8.3.0",
+    "vitest": "3.2.4"
+  }
+}
